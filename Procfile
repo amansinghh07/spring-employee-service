@@ -1,1 +1,1 @@
-web: java -Dspring.profiles.active=prod -jar application.jar
+web: java -jar target/TestingApplicationMod_7-0.0.1-SNAPSHOT.jar
