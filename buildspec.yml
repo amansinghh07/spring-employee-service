@@ -19,7 +19,7 @@ phases:
     commands:
       - echo Build started
       - chmod +x mvnw
-      - ./mvnw clean package -DskipTests
+      - mvn  package
 
   post_build:
     commands:
